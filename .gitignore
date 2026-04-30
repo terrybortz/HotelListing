@@ -1,0 +1,66 @@
+# Build artifacts
+bin/
+obj/
+*/bin/
+*/obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio temporary files
+*.tmp
+*.temp
+*.log
+*.vspscc
+*.vssscc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Microsoft Azure Web App publish settings
+*.Publish.xml
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of PackageRestore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it should be included in source control
+# !**/packages/repositories.config
+
+# npm packages
+node_modules/
+
+# Backup files
+*~
+*.bak
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Runtime files
+*.pid
+*.seed

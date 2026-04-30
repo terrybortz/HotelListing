@@ -31,3 +31,4 @@ C:\terry\dev\poc\HotelListing\Api\obj\Debug\net10.0\refint\Api.dll
 C:\terry\dev\poc\HotelListing\Api\obj\Debug\net10.0\Api.pdb
 C:\terry\dev\poc\HotelListing\Api\obj\Debug\net10.0\Api.genruntimeconfig.cache
 C:\terry\dev\poc\HotelListing\Api\obj\Debug\net10.0\ref\Api.dll
+C:\terry\dev\poc\HotelListing\Api\obj\Debug\net10.0\Api.sourcelink.json

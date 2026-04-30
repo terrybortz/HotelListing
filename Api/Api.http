@@ -37,3 +37,10 @@ Content-Type: application/json
     "address": "Updated 3 Lane St",
     "rating": 4.9
 }
+
+### Countries
+GET {{Api_HostAddress}}/countries
+
+###
+@id = 2
+GET {{Api_HostAddress}}/countries/{{id}}

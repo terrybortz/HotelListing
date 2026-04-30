@@ -1,0 +1,39 @@
+@Api_HostAddress = http://localhost:5078/api
+
+GET {{Api_HostAddress}}/hotels
+Accept: application/json
+
+###
+
+@id = 3
+GET {{Api_HostAddress}}/hotels/{{id}}
+
+
+###
+
+POST {{Api_HostAddress}}/hotels
+Content-Type: application/json
+
+{
+    "id": 5,
+    "name": "Hotel 5",
+    "address": "3 Lane St",
+    "rating": 4.0
+}
+
+###
+
+@id = 5
+DELETE  {{Api_HostAddress}}/hotels/{{id}}
+
+###
+
+PUT {{Api_HostAddress}}/hotels/{{id}}
+Content-Type: application/json
+
+{
+    "id": 0,
+    "name": "Updated Hotel 5",
+    "address": "Updated 3 Lane St",
+    "rating": 4.9
+}

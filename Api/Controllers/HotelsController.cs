@@ -11,7 +11,7 @@ namespace Api.Controllers
         private static readonly List<Hotel> hotels =
         [
             new Data.Hotel { Id = 1, Name = "Grand Plaza", Address = "123 Main St", Rating = 4.5 },
-            new Data.Hotel { Id = 2, Name = "Oceans View", Address = "456 Elm St", Rating = 4.0 },
+            new Data.Hotel { Id = 2, Name = "Oceans View", Address = "456 Elm St", Rating = 4.1 },
             new Data.Hotel { Id = 3, Name = "Hotel C", Address = "789 Oak St", Rating = 3.5 }
         ];
 
